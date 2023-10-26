@@ -1,0 +1,124 @@
+/*
+Theme Name: Let's Drive
+Template: twentytwentyone
+*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+/*======common-css======*/
+body {
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+li {
+  list-style: none;
+}
+body a,
+body input {
+  text-decoration: none;
+  outline: none;
+}
+p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Quicksand";
+}
+
+h1 {
+  font-size: 82px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Quicksand";
+}
+h2 {
+  font-size: 46px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Quicksand";
+}
+h3 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Quicksand";
+}
+.container {
+  max-width: 1650px;
+  margin: 0 auto;
+  padding: 0px 70px;
+}
+
+header#masthead {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+header#masthead .primary-navigation > div > .menu-wrapper li a {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Quicksand";
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+header#masthead .site-logo .custom-logo {
+  min-width: auto;
+}
+
+.mainHeading .breadcrumbSection br {
+  display: none;
+}
+
+
+/*=======media-responsive-start-here======*/
+@media (max-width: 1366px) {
+  h1 {
+    font-size: 62px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1199px) {
+  header#masthead .site-logo .custom-logo {
+    min-width: auto;
+  }
+ 
+  .container
+   {
+    padding: 40px 15px;
+    max-width: 100%;
+  }}
+  
+@media (max-width: 991px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+
+ 
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+  h2 {
+    font-size: 24px;
+  }
+ 
+ 
+ 
+}
+
